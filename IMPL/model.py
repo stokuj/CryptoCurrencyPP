@@ -67,7 +67,6 @@ class Model():
         ### Create Neural Network
 
         if self.model_id == 1:
-            print('LSTM')
             self.model.add(LSTM(units=50, return_sequences=True, input_shape=(self.x_train.shape[1], 1)))
             self.model.add(Dropout(0.2))
             self.model.add(LSTM(units=50, return_sequences=True))
@@ -76,8 +75,7 @@ class Model():
             self.model.add(Dropout(0.2))
             self.model.add(Dense(units=1))
 
-        elif self.model_id == 2:
-            print('GRU')    
+        elif self.model_id == 2: 
             self.model.add(GRU(units=50, return_sequences=True, input_shape=(self.x_train.shape[1], 1)))
             self.model.add(Dropout(0.2))
             self.model.add(GRU(units=50, return_sequences=True))
@@ -86,7 +84,6 @@ class Model():
             self.model.add(Dropout(0.2))
             self.model.add(Dense(units=1))
         else:
-            print('LSTM + GRU')
             self.model.add(RNN(cell = LSTMCell(50), return_sequences=True, input_shape=(self.x_train.shape[1], 1)))
             self.model.add(Dropout(0.25))
             self.model.add(GRU(units=50, return_sequences=True))

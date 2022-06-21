@@ -201,15 +201,11 @@ class View():
         ### Switch and separator abowe frame 2
 
         def callback_switch():
-            print("test")
             if (button1['state'] == tk.NORMAL):
-                print('Change to disabled')
                 button1['state'] =  tk.DISABLED
                 
             if (button1['state'] == tk.DISABLED):
-                print('Change to normal')
                 button1['state'] =  tk.NORMAL
-            print(button1['state'])
 
         switch = ttk.Checkbutton(root, text='Use online database', style='Switch', variable=switch_state, offvalue=0, onvalue=1, command = callback_switch)
         switch.place(x=250, y=100)
