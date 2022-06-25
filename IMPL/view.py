@@ -15,7 +15,7 @@ class View():
         ### Title definition
         root.title('Cryptocurrency Price Prediction')
         
-        
+        start_bool = True;
         ### Size fo window and function to center window
         window_height = 520
         window_width = 480
@@ -150,7 +150,7 @@ class View():
 
         ### Callback and button to select the file when switch is off
         ###
-        button1 = ttk.Button(root, text='Select file', command=callback_button1, state = tk.DISABLED)
+        button1 = ttk.Button(root, text='Select file', command=callback_button1, state = tk.NORMAL)
         button1.place(x=20, y=430)
 
         def callback_button2():
@@ -201,12 +201,16 @@ class View():
         ### Switch and separator abowe frame 2
 
         def callback_switch():
+            print(button1['state'])
             if (button1['state'] == tk.NORMAL):
                 button1['state'] =  tk.DISABLED
-                
+                print('Normal -> Disabled')
             if (button1['state'] == tk.DISABLED):
                 button1['state'] =  tk.NORMAL
-
+                print('Disabled -> Normal')
+            print(button1['state'])
+                
+                
         switch = ttk.Checkbutton(root, text='Use online database', style='Switch', variable=switch_state, offvalue=0, onvalue=1, command = callback_switch)
         switch.place(x=250, y=100)
         switch.invoke()
