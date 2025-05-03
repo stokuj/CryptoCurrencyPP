@@ -47,7 +47,9 @@ Set parameters:
  - Test Range
 
 Click Train to train the model.
+
 Click Plot to visualize actual vs. predicted prices.
+
 Click Gain to calculate the percentage change between the last predicted and real value.
 
 ## 📁 Project Structure
