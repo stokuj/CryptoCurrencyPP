@@ -1,8 +1,8 @@
-Cryptocurrency Price Prediction using Neural Networks
-📈 Project Overview
+#Cryptocurrency Price Prediction using Neural Networks
+##📈 Project Overview
 
 This project predicts cryptocurrency prices using advanced neural network architectures — LSTM (Long Short-Term Memory), GRU (Gated Recurrent Unit), and a hybrid LSTM-GRU model. It includes a graphical user interface (GUI) built with Tkinter, allowing users to easily select parameters, visualize results, and interact with the prediction system.
-🚀 Features
+##🚀 Features
 
     Multiple Cryptocurrencies: Supports Bitcoin (BTC), Ethereum (ETH), Dogecoin (DOGE), and Litecoin (LTC)
 
@@ -44,12 +44,12 @@ This project predicts cryptocurrency prices using advanced neural network archit
 
         Epochs and batch size
 
-🛠️ Installation
+##🛠️ Installation
 1. Clone the Repository
 <pre><code>git clone https://github.com/yourusername/cryptocurrency-prediction.git cd cryptocurrency-prediction </code></pre>
 2. Install Required Packages
 <pre><code>pip install tensorflow keras pandas numpy matplotlib pandas_datareader </code></pre>
-▶️ Usage
+##▶️ Usage
 Run the Application
 <pre><code>python app.py </code></pre>
 In the GUI:
@@ -72,9 +72,9 @@ In the GUI:
 
     Click Gain to calculate the percentage change between the last predicted and real value.
 
-📁 Project Structure
+##📁 Project Structure
 <pre><code>cryptocurrency-prediction/ ├── app.py # Main application entry point ├── model.py # Neural network architecture and training ├── view.py # Tkinter GUI implementation ├── controller.py # Handles logic and user interactions ├── README.md # Project documentation └── requirements.txt # List of dependencies </code></pre>
-📊 Key Findings
+##📊 Key Findings
 
     GRU models train faster than LSTM, but LSTM provides smoother and more stable predictions.
 
@@ -84,7 +84,7 @@ In the GUI:
 
     Using more historical data generally improves the model's performance.
 
-🧠 Code Architecture (MVC Pattern)
+##🧠 Code Architecture (MVC Pattern)
 
     Model (model.py):
 
@@ -104,7 +104,7 @@ In the GUI:
 
         Manages application logic and state
 
-📦 Dependencies
+##📦 Dependencies
 
     Python 3.6+
 
@@ -120,9 +120,9 @@ In the GUI:
 
     pandas_datareader
 
-📄 License
+##📄 License
 
 This project is licensed under the MIT License.
-📬 Contact
+##📬 Contact
 
 For questions, suggestions, or contributions, please open an issue or contact the project maintainer via GitHub.
