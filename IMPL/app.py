@@ -39,7 +39,7 @@ class Controller():
 
         messagebox.showinfo(title='Gain', message='Current value is ' + str(int(gain)) +'% of staring value\n'
                             +   '100% - Gain is equal: ' + str(100-int(gain)) +'%\n'    )
-     
+
     def set_model_currency(self,i):
         self.m.set_currency(i)
 

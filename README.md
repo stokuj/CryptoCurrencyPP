@@ -3,6 +3,7 @@
 ## 📈Project Overview
 
 This project predicts cryptocurrency prices using advanced neural network architectures — LSTM (Long Short-Term Memory), GRU (Gated Recurrent Unit), and a hybrid LSTM-GRU model. It includes a graphical user interface (GUI) built with Tkinter, allowing users to easily select parameters, visualize results, and interact with the prediction system.
+
 ## 🚀 Features
 
 - Multiple Cryptocurrencies: Supports Bitcoin (BTC), Ethereum (ETH), Dogecoin (DOGE), and Litecoin (LTC)
@@ -80,13 +81,15 @@ Click Gain to calculate the percentage change between the last predicted and rea
   - Manages application logic and state
 
 ## 📦 Dependencies
- - Python 3.6+
- - TensorFlow 2.x
+Project was tested 5.05.2025 with python 3.11.9 and tensorflow 2.19.
+pandas_datareader had to be raplaced with yfinance module.
+ - Python 3.11
+ - TensorFlow
  - Keras
  - Pandas
  - NumPy
  - Matplotlib
- - pandas_datareader
+ - yfinance
 
 ## 📄 License
 
