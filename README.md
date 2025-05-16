@@ -37,7 +37,8 @@ cd cryptocurrency-prediction</code></pre>
 
 ## ▶️ Usage
 Run the Application
-<pre><code>python IMPL/app.py</code></pre>
+Be in IMPL folder
+<pre><code>python app.py</code></pre>
 In the GUI:
 1. Select the cryptocurrency (BTC, ETH, Doge, LTC)
 2. Choose the data source (Yahoo, Stooq, Naver)
