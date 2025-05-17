@@ -2,8 +2,6 @@
 
 ---
 
-# 🇵🇱 POLSKA WERSJA
-
 ## 📈 Przegląd Projektu
 
 Ten projekt prognozuje ceny kryptowalut przy użyciu zaawansowanych architektur sieci neuronowych — LSTM (Long Short-Term Memory), GRU (Gated Recurrent Unit) oraz hybrydowego modelu LSTM-GRU. Zawiera graficzny interfejs użytkownika (GUI) zbudowany przy użyciu Tkinter, umożliwiający użytkownikom łatwy wybór parametrów, wizualizację wyników i interakcję z systemem prognozowania.
@@ -133,8 +131,9 @@ W przypadku pytań, sugestii lub wkładu, proszę otworzyć zgłoszenie lub skon
 
 ---
 
-# 🇬🇧 ENGLISH VERSION
+# 📚 Cryptocurrency Price Prediction using Neural Networks
 
+---
 ## 📈 Project Overview
 
 This project predicts cryptocurrency prices using advanced neural network architectures — LSTM (Long Short-Term Memory), GRU (Gated Recurrent Unit), and a hybrid LSTM-GRU model. It includes a graphical user interface (GUI) built with Tkinter, allowing users to easily select parameters, visualize results, and interact with the prediction system.
